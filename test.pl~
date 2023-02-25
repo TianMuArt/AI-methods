@@ -1,0 +1,7 @@
+likes(john,mary).
+likes(john,jane).
+likes(bob,alice).
+likes(bob,mary).
+likes(charlie,jane).
+likes(alice,bob).
+loves(x,y):-likes(x,y),likes(y,x).
